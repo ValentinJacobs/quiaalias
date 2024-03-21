@@ -1,0 +1,36 @@
+{
+  "name": "quiaalias",
+  "version": "1.0.0",
+  "description": "fp-ts wrapper for logging with winston logger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ValentinJacobs/quiaalias.git"
+  },
+  "author": "MajorMcLaughlin",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "@pagopa/eslint-config": "^1.3.1",
+    "@types/jest": "^25.2.1",
+    "danger": "^10.3.0",
+    "danger-plugin-digitalcitizenship": "^1.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^25.2.7",
+    "prettier": "^1.12.1",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^25.3.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "fp-ts": "^2.10.5",
+    "io-ts": "^2.2.16",
+    "winston": "^3.7.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ValentinJacobs/quiaalias.git/issues"
+  }
+}
